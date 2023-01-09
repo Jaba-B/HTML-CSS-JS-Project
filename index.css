@@ -1,0 +1,20 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Home-Page */
+.home-page__title-container {
+    background-color: #11346F;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page__title {
+    color: #F6F8FC;
+    font-size: 14px;
+    font-weight: 800;
+}
