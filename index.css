@@ -89,3 +89,16 @@ body {
     bottom: 0px;
     left: 260px;
 }
+
+.home-page__p-container {
+    background-color: #F5FDFF;
+}
+
+.home-page__p-container p {
+    padding: 10px 0 0 26px;
+    text-align: center;
+    width: 378px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}
