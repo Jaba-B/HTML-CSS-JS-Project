@@ -25,4 +25,67 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid rgba(189, 195, 199, 0.2);
+}
+
+.home-page__main-container {
+    position: relative;
+    margin: 0px;
+    background-color: #F5FDFF;
+    height: auto;
+}
+
+.home-page__titlehead {
+    margin: 0px 0 0 17px;
+    padding-top: 13px;
+    width: 213px;
+    height: 156px;
+}
+
+.home-page__titlehead p {
+    color: #213786;
+    font-size: 26px;
+    margin-top: 0px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.home-page__titlehead p span {
+    color: #197AFF;
+    font-weight: 800;
+}
+
+.home-page__titlehead-underline {
+    position: absolute;
+    top: 148px;
+}
+
+.home-page__titlehead-curly {
+    position: absolute;
+    top: 127px;
+    left: 117px;
+}
+
+.home-page__titlehead-blue-arrow {
+    position: absolute;
+    left: 192.45px;
+    bottom: 35px;
+}
+
+.home-page__massagers {
+    position: absolute;
+    top: 36px;
+    left: 226px;
+}
+
+.home-page__shadow-first {
+    position: absolute;
+    left: 210px;
+    bottom: 20px;
+}
+
+.home-page__shadow-second {
+    position: absolute;
+    bottom: 0px;
+    left: 260px;
 }
