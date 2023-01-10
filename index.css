@@ -246,7 +246,37 @@ body {
     left: 5.5px;
 }
 
-.home-page__categories-body__span {
+.home-page__categories-kid__span span{
+    display: flex;
+    width: 55px;
+    color: #11346F;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Pet ------------------------------------------*/
+.home-page__categories-pet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page__categories-pet__icon {
+    position: relative;
+    width: 42px;
+    height: 40px;
+}
+
+.home-page__categories-kid__icon-nose {
+    position: absolute;
+    top: 15px;
+    left: 17px;
+}
+
+.home-page__categories-pet__span span {
     display: flex;
     width: 55px;
     color: #11346F;
