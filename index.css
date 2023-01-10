@@ -111,6 +111,7 @@ body {
 .home-page__categories {
     margin-left: 30px;
     padding-top: 30px;
+    display: flex;
 }
 /* Head ------------------------------------------*/
 .home-page__categories-head {
@@ -194,4 +195,33 @@ body {
     width: 35.22px;
     height: 35.22px;
     position: relative;
+    margin-bottom: 6px;
+}
+
+.home-page__categories-body__icon-circle {
+    position: absolute;
+    top: 14px;
+    left: 13px;
+}
+
+.home-page__categories-body__icon-thunder {
+    position: absolute;
+    top: 9px;
+    left: 21px;
+}
+
+.home-page__categories-body__icon-thunder2 {
+    position: absolute;
+    top: 13px;
+    left: 23px;
+}
+
+.home-page__categories-body__span span{
+    display: flex;
+    width: 55px;
+    color: #11346F;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
 }
