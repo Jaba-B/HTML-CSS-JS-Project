@@ -1,0 +1,64 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.sales-page {
+    background: linear-gradient(118.72deg, #AECCFF 18.14%, #197AFF 165.34%);
+}
+/* HEADER --------------------------------- */
+.sales-page__header {
+    height: 101px;
+    background-color: #11346F;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* TRUCK */
+.sales-page__header-discount {
+    padding-top: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sales-page__header__icon-container {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.sales-page__header__icon-truck {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.sales-page__header__icon-blue {
+    position: absolute;
+    top: 10px;
+    left: 7px;
+} 
+
+.sales-page__header__icon-free {
+    position: absolute;
+    top: 13px;
+    left: 8px;
+}
+
+.sales-page__header-discount p {
+    margin-top: 7px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 800;
+    vertical-align: middle;
+    text-align: center;
+}
+/* BADGE */
