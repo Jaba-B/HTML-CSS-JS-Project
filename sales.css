@@ -87,3 +87,231 @@ p {
 .sales-page__title img {
     margin-left: -7px;
 }
+/* CARDS */
+
+.sales-page__cards {
+    margin: 55px 0 63px 18px;
+}
+
+.sales-page__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 378px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #D7E6FF 100%);
+    border: 1.5px solid #197AFF;
+    border-radius: 18px;
+    margin-left: -8px;
+}
+
+.sales-page__card img {
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+.sales-page__card-badge {
+    width: 126px;
+    height: 28px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: #57AC73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sales-page__card-badge p {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.sales-page__card-offer {
+    position: relative;
+    display: flex;
+    margin: 25px;
+}
+
+.sales-page__card-offer p {
+    color: #11346F;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.sales-page__card-offer span {
+    color: #197AFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sales-page__card-offer img {
+    position: absolute;
+    top: 60px;
+    left: 75px;
+}
+
+.sales-page__card-prices {
+    position: relative;
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.sales-page__card-prices p {
+    font-size: 25px;
+    font-weight: 800;
+    color: #11346F;
+    margin-right: 15px;
+}
+
+.sales-page__card-prices span {
+    font-size: 25px;
+    font-weight: 800;
+    color: #93A2BB;
+}
+
+.sales-page__card-prices img {
+    position: absolute;
+    top: 40px;
+    left: 105px;
+}
+
+.sales-page__card-installments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.sales-page__card-installments p {
+    color: #11346F;
+    font-size: 11px;
+    font-weight: 800;
+    margin-right: 13px;
+}
+
+.sales-page__card-installments p span {
+    color: #000000;
+    font-weight: 800;
+}
+
+.sales-page__card-installments__afterpay {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 77px;
+    height: 17.11px;
+    border: 0px;
+    border-radius: 40px;
+    background-color: #BCF5E3;
+}
+
+.sales-page__card-installments__afterpay span {
+    color: #000000;
+    font-size: 9px;
+    font-weight: 800;
+    margin-right: 2px;
+    margin-left: 13px;
+}
+
+.sales-page__card-installments__afterpay img {
+    position: absolute;
+    left: 52px; 
+    top: 30px;    
+}
+
+.sales-page__card-offers {
+    position: relative;
+    width: 342px;
+    height: 77px;
+    border: 1px solid #AECCFF;
+    border-radius: 19px;
+    margin-bottom: 25px;
+}
+
+.sales-page__card-offers-save {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180.2px;
+    height: 36px;
+    background-color: #BFF5BE;
+    border: 1px solid #99D298;
+    border-radius: 48px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sales-page__card-offers-save span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #11346F;
+}
+
+.sales-page__card-special-price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 185px;
+    height: 36px;
+    background-color: #F0F6FF;
+    border: 1px solid #AECCFF;
+    border-radius: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.sales-page__card-special-price span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #11346F;
+    margin-right: 25px;
+}
+
+.sales-page__card-offers img {
+    position: absolute;
+    top: 70px;
+    left: 80px;
+}
+
+.sales-page__card-offers p {
+    color: #11346F;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    top: 47px;
+    left: 106px;
+}
+
+.sales-page__card-btn {
+    width: 353px;
+    height: 48px;
+    background-color: #197AFF;
+    box-shadow: 0px 7px 14px rgba(25, 122, 255, 0.5);
+    border: 0px;
+    border-radius: 60px;
+    margin-bottom: 15px;
+}
+
+.sales-page__card-btn span {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.sales-page__card-payments {
+    width: 316px;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.sales-page__card-payments img {
+    margin: 0;
+}
