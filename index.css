@@ -200,8 +200,8 @@ body {
 
 .home-page__categories-body__icon-circle {
     position: absolute;
-    top: 14px;
-    left: 13px;
+    top: 16px;
+    left: 14px;
 }
 
 .home-page__categories-body__icon-thunder {
@@ -217,6 +217,36 @@ body {
 }
 
 .home-page__categories-body__span span{
+    display: flex;
+    width: 55px;
+    color: #11346F;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Kid ------------------------------------------*/
+.home-page__categories-kid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page__categories-kid__icon {
+    width: 29px;
+    height: 38px;
+    position: relative;   
+    padding-bottom: 0px;
+}
+
+.home-page__categories-kid__icon-hair {
+    position: absolute;
+    left: 5.5px;
+}
+
+.home-page__categories-body__span {
     display: flex;
     width: 55px;
     color: #11346F;
