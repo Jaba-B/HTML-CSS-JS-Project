@@ -5,6 +5,10 @@ body {
 }
 
 /* Home-Page */
+.home-page {
+    background-color: #F5FDFF;
+}
+
 .home-page__title-container {
     background-color: #11346F;
     height: 39px;
@@ -289,4 +293,43 @@ body {
     font-weight: 700;
     text-align: center;
     vertical-align: middle;
+}
+
+/* BTN -------------------------------------- */
+
+.home-page__blue-btn {
+    margin: 20px 0 0 18px;
+    width: 377px;
+    height: 63px;
+    border-radius: 60px;
+    border: 0px;
+    background-color: #197AFF;
+}
+
+.home-page__blue-btn span {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-page__gray-btn {
+    width: 228px;
+    height: 34px;
+    background-color: rgba(77, 145, 207, 0.15);
+    border: 0px;
+    border-radius: 30px;
+    margin: 16px 0 0 93px;
+}
+
+.home-page__gray-btn p {
+    margin: 0px;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.home-page__gray-btn p span {
+    color: #197AFF;
+    font-weight: 700;
 }
