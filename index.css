@@ -333,3 +333,67 @@ body {
     color: #197AFF;
     font-weight: 700;
 }
+
+/* CUSTOMER COMMENT -------------------------------- */
+
+.home-page__customer-container {
+    display: flex;
+    margin: 16px 0 0 18px;
+    width: 377px;
+    height: 81px;
+    border: 1px solid rgba(174, 204, 255, 0.5);
+    border-radius: 110px;
+    background-color: rgba(234, 242, 255, 0.1);
+}
+
+.home-page__customer-img {
+    border-radius: 30px;
+    margin: 8px 14px 9px 9px;
+}
+
+.home-page__customer-comment-container {
+    margin: 13px 39px 9px 0;
+}
+
+.home-page__customer-comment-container p {
+    color: #000000;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.home-page__customer-rate {
+    margin-top: 9px;
+}
+
+.home-page__customer-rate img {
+    margin-right: -3px;
+}
+
+.home-page__customer-rate-container {
+    display: flex;
+    width: 300px;
+}
+
+.home-page__customer-rate-container span {
+    margin: 10px 15px 10px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #787979;
+}
+
+.home-page__customer-verification {
+    margin: 10px 0 0 0;
+    display: flex;
+}
+
+.home-page__customer-verification {
+    margin-right: 5px;
+}
+
+.home-page__customer-verification p {
+    margin: 1px 0 0 5px;
+    color: #197AFF;
+    font-size: 11px;
+    font-weight: 800;
+}
