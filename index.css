@@ -102,3 +102,96 @@ body {
     font-weight: 700;
     margin: 0;
 }
+
+.home-page__categories-container {
+    background-color:#F5FDFF;
+    height: auto;
+}
+/* dasazustebelia !!!!!!!!!!!!! */
+.home-page__categories {
+    margin-left: 30px;
+    padding-top: 30px;
+}
+/* Head ------------------------------------------*/
+.home-page__categories-head {
+    width: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page__categories-head__icon {
+    position: relative;
+    width: 27px;
+    height: 31px;
+}
+
+.home-page__categories-head__icon-dot {
+    position: absolute;
+    left: -3px;
+    top: 30px;
+}
+
+.home-page__categories-head__icon-dot2 {
+    position: absolute;
+    top: 30px;
+    right: -4px;
+}
+
+.home-page__categories-head__icon-line {
+    position: absolute;
+    left: -3px;
+    top: 21px;
+}
+
+.home-page__categories-head__icon-line2 {
+    position: absolute;
+    left: 0px;
+    top: 22px;
+}
+
+.home-page__categories-head__icon-line3 {
+    position: absolute;
+    top: 21px;
+    left: 24px;
+}
+
+.home-page__categories-head__icon-line4 {
+    position: absolute;
+    top: 23px;
+    left: 22px;
+}
+
+.home-page__categories-head__icon-thunder {
+    position: absolute;
+    left: -5px;
+}
+
+.home-page__categories-head__icon-thunder2 {
+    position: absolute;
+}
+
+.home-page__categories-head__icon-hair {
+    position: absolute;
+    left: 7px;
+}
+
+.home-page__categories-head__span span {
+    padding-top: 8px;
+    display: flex;
+    width: 55px;
+    color: #11346F;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Body ------------------------------------------*/
+
+.home-page__categories-body__icon {
+    width: 35.22px;
+    height: 35.22px;
+    position: relative;
+}
