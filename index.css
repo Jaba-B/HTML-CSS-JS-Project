@@ -109,9 +109,11 @@ body {
 }
 /* dasazustebelia !!!!!!!!!!!!! */
 .home-page__categories {
-    margin-left: 30px;
+    margin-left: 25px;
     padding-top: 30px;
     display: flex;
+    width: 365px;
+    justify-content: space-between;
 }
 /* Head ------------------------------------------*/
 .home-page__categories-head {
@@ -179,7 +181,7 @@ body {
 }
 
 .home-page__categories-head__span span {
-    padding-top: 8px;
+    margin-top: 12px;
     display: flex;
     width: 55px;
     color: #11346F;
@@ -216,7 +218,8 @@ body {
     left: 23px;
 }
 
-.home-page__categories-body__span span{
+.home-page__categories-body__span span {
+    margin-top: 10px;
     display: flex;
     width: 55px;
     color: #11346F;
@@ -246,7 +249,8 @@ body {
     left: 5.5px;
 }
 
-.home-page__categories-kid__span span{
+.home-page__categories-kid__span span {
+    margin-top: 8px;
     display: flex;
     width: 55px;
     color: #11346F;
@@ -277,6 +281,7 @@ body {
 }
 
 .home-page__categories-pet__span span {
+    margin-top: 8px;
     display: flex;
     width: 55px;
     color: #11346F;
