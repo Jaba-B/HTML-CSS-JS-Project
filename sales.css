@@ -61,4 +61,29 @@ p {
     vertical-align: middle;
     text-align: center;
 }
-/* BADGE */
+
+.sales-page__title {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sales-page__title p {
+    margin-bottom: 5px;
+    color: #11346F;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sales-page__title span {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sales-page__title img {
+    margin-left: -7px;
+}
