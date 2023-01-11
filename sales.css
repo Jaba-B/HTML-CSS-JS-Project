@@ -330,3 +330,23 @@ p {
     width: 100px;
     margin-top: -10px;
 }
+
+.sales-page__card-massager-single {
+    margin: 27px 0 33px 0;
+}
+
+#sales-page__card-offer__single {
+    margin-bottom: 20px;
+}
+
+#sales-page__card-prices__single {
+    margin-bottom: 10px;
+}
+
+#sales-page__card-best-value {
+    margin-bottom: 41px;
+}
+
+#sales-page__card-single {
+    margin-bottom: 63px;
+}
