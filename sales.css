@@ -94,6 +94,7 @@ p {
 }
 
 .sales-page__card {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,11 +103,19 @@ p {
     border: 1.5px solid #197AFF;
     border-radius: 18px;
     margin-left: -8px;
+    margin-bottom: 70px;
 }
 
-.sales-page__card img {
+.sales-page__card-massager-popular {
     margin-top: -25px;
     margin-bottom: 20px;
+    z-index: 1;
+}
+
+.sales-page__card-bluline-popular {
+    position: absolute;
+    top: 24px;
+    left: 234px;
 }
 
 .sales-page__card-badge {
@@ -130,7 +139,7 @@ p {
 .sales-page__card-offer {
     position: relative;
     display: flex;
-    margin: 25px;
+    margin: 0px 25px 25px 25px;
 }
 
 .sales-page__card-offer p {
@@ -148,7 +157,7 @@ p {
 
 .sales-page__card-offer img {
     position: absolute;
-    top: 60px;
+    top: 35px;
     left: 75px;
 }
 
@@ -173,7 +182,7 @@ p {
 
 .sales-page__card-prices img {
     position: absolute;
-    top: 40px;
+    top: 15px;
     left: 105px;
 }
 
@@ -218,7 +227,7 @@ p {
 .sales-page__card-installments__afterpay img {
     position: absolute;
     left: 52px; 
-    top: 30px;    
+    top: 5px;    
 }
 
 .sales-page__card-offers {
@@ -274,7 +283,7 @@ p {
 
 .sales-page__card-offers img {
     position: absolute;
-    top: 70px;
+    top: 45px;
     left: 80px;
 }
 
@@ -314,4 +323,10 @@ p {
 
 .sales-page__card-payments img {
     margin: 0;
+}
+
+#sales-page__card-badge__best-value {
+    background-color: #AC5780;
+    width: 100px;
+    margin-top: -10px;
 }
