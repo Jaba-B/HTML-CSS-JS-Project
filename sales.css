@@ -90,7 +90,7 @@ p {
 /* CARDS */
 
 .sales-page__cards {
-    margin: 55px 0 63px 18px;
+    margin: 55px 0 0px 18px;
 }
 
 .sales-page__card {
@@ -347,6 +347,10 @@ p {
     margin-bottom: 41px;
 }
 
+.sales-page__ending {
+    height: 63px;
+}
+
 #sales-page__card-single {
-    margin-bottom: 63px;
+    margin-bottom: 0px;
 }

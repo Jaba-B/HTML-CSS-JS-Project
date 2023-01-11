@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.review-page {
+    background-color: #F6F8FC;
+}
+
+.review-page__title {
+    padding: 28px 0 50px 16px;
+    position: relative;
+}
+
+.review-page__title p {
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #11346F;
+}
+.review-page__title p span {
+    color: #197AFF;
+}
+
+.review-page__title img {
+    position: absolute;
+    top: 113px;
+    left: 132px;
+}
