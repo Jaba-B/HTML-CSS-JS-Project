@@ -1,0 +1,131 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.questions-page {
+    background-color: #11346F;
+    width: 415px
+}
+
+.questions-page__title {
+    position: relative;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 38px;
+}
+
+.questions-page__title p {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+.questions-page__title p span {
+    font-weight: 900;
+}
+
+.questions-page__title img {
+    position: absolute;
+    top: 130px;
+    left: 135px
+}
+
+.question-page__reviewr-photo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+.question-page__questions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions-page__question-response {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.question-page__question {
+    width: 378px;
+    height: 59px;
+    background-color: #194081;
+    border: 1px solid #31548E;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.question-page__question p {
+    padding-left: 14px;
+    padding-right: 32px;
+    width: 304px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.question-page__question img {
+    cursor: pointer;
+}
+
+.question-page__response {
+    margin-top: -7px;
+    width: 378px;
+    height: 78px;
+    background-color: #11346F;
+    border: 1px solid #31548E;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.question-page__response p {
+    color: #AECCFF;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    padding-left: 14px;
+}
+
+.visible {
+    display: flex;
+}
+
+.rotate {
+    rotate: 180deg;
+}
+
+.questions-page__faq {
+    width: 415px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0 25px 0;
+}
+
+.questions-page__faq p {
+    color: #F6F8FC;
+    font-size: 16px;
+    font-weight: 800;
+    margin-right: 12px;
+}
+
+.questions-page__faq img {
+    cursor: pointer;
+}

@@ -144,7 +144,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .review-page__review-dots div {
