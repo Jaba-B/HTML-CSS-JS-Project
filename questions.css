@@ -10,7 +10,12 @@ p {
 
 .questions-page {
     background-color: #11346F;
-    width: 415px
+    display: flex;
+    justify-content: center;
+}
+
+.questions-page__container {
+    width: 415px;
 }
 
 .questions-page__title {

@@ -4,9 +4,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Home-Page */
 .home-page {
     background-color: #F5FDFF;
+    display: flex;
+    justify-content: center;
+}
+
+.home-page__container {
+    width: 415px;
 }
 
 .home-page__title-container {
@@ -15,6 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .home-page__title {
@@ -30,6 +36,7 @@ body {
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid rgba(189, 195, 199, 0.2);
+    width: 100%;
 }
 
 .home-page__main-container {
@@ -111,7 +118,7 @@ body {
     background-color:#F5FDFF;
     height: auto;
 }
-/* dasazustebelia !!!!!!!!!!!!! */
+
 .home-page__categories {
     margin-left: 25px;
     padding-top: 30px;
@@ -119,7 +126,7 @@ body {
     width: 365px;
     justify-content: space-between;
 }
-/* Head ------------------------------------------*/
+
 .home-page__categories-head {
     width: 55px;
     display: flex;
@@ -195,8 +202,6 @@ body {
     vertical-align: middle;
 }
 
-/* Body ------------------------------------------*/
-
 .home-page__categories-body__icon {
     width: 35.22px;
     height: 35.22px;
@@ -233,7 +238,6 @@ body {
     vertical-align: middle;
 }
 
-/* Kid ------------------------------------------*/
 .home-page__categories-kid {
     display: flex;
     flex-direction: column;
@@ -264,7 +268,6 @@ body {
     vertical-align: middle;
 }
 
-/* Pet ------------------------------------------*/
 .home-page__categories-pet {
     display: flex;
     flex-direction: column;
@@ -294,8 +297,6 @@ body {
     text-align: center;
     vertical-align: middle;
 }
-
-/* BTN -------------------------------------- */
 
 .home-page__blue-btn {
     margin: 20px 0 0 18px;
@@ -333,8 +334,6 @@ body {
     color: #197AFF;
     font-weight: 700;
 }
-
-/* CUSTOMER COMMENT -------------------------------- */
 
 .home-page__customer-container {
     display: flex;

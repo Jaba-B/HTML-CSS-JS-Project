@@ -10,15 +10,21 @@ p {
 
 .sales-page {
     background: linear-gradient(118.72deg, #AECCFF 18.14%, #197AFF 165.34%);
+    display: flex;
+    justify-content: center;
 }
-/* HEADER --------------------------------- */
+
+.sales-page__container {
+    width: 415px;
+}
+
 .sales-page__header {
     height: 101px;
     background-color: #11346F;
     display: flex;
     justify-content: space-evenly;
 }
-/* TRUCK */
+
 .sales-page__header-discount {
     padding-top: 11px;
     display: flex;
@@ -87,7 +93,6 @@ p {
 .sales-page__title img {
     margin-left: -7px;
 }
-/* CARDS */
 
 .sales-page__cards {
     margin: 55px 0 0px 18px;

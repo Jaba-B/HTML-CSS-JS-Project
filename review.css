@@ -10,6 +10,12 @@ p {
 
 .review-page {
     background-color: #F6F8FC;
+    display: flex;
+    justify-content: center;
+}
+
+.review-page__container {
+    width: 415px;
 }
 
 .review-page__title {
