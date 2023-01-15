@@ -134,3 +134,61 @@ p {
 .questions-page__faq img {
     cursor: pointer;
 }
+
+@media only screen and (min-width: 1440px) {
+    .questions-page__container {
+        width: 1440px;
+    }
+    .questions-page__title {
+        padding: 34px 0 65px 0;
+    }
+    .questions-page__title p {
+        font-size: 37px;
+    }
+    .questions-page__title img {
+        width: 226px;
+        height: 4px;
+        top: 90px;
+        left: 780px;
+    }
+    .questions-page__title p br {
+        display: none;
+    }
+    .question-page__questions-answers__container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+    .question-page__reviewr-photo {
+        width: 476px;
+        height: 398px;
+    }
+    .question-page__reviewr-photo img {
+        width: 476px;
+        height: 398px;
+    }
+    .question-page__questions-faq-container {
+        width: 652px;
+        margin-left: 84px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+    }
+    .questions-page__question-response, .question-page__question, .question-page__response {
+        width: 652px;
+    }
+    .question-page__question p, .question-page__response p{
+        width: 520px;
+    }
+    .question-page__question {
+        justify-content: space-between;
+    }
+    .question-page__question img {
+        margin-right: 25px;
+    }
+    .questions-page__faq {
+        justify-content: start;
+    }
+}

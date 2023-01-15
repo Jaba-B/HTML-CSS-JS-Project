@@ -195,6 +195,7 @@ p {
     }
     .review-page__rate {
         width: 1230px;
+        margin-left: 100px;
     }
     .review-page__rate-review {
         display: flex;
