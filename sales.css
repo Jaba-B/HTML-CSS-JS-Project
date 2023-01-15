@@ -25,6 +25,10 @@ p {
     justify-content: space-evenly;
 }
 
+#blue-star {
+    display: none;
+}
+
 .sales-page__header-discount {
     padding-top: 11px;
     display: flex;
@@ -39,24 +43,9 @@ p {
     height: 36px;
     border-radius: 100%;
     background-color: white;
-}
-
-.sales-page__header__icon-truck {
-    position: absolute;
-    top: 7px;
-    left: 7px;
-}
-
-.sales-page__header__icon-blue {
-    position: absolute;
-    top: 10px;
-    left: 7px;
-} 
-
-.sales-page__header__icon-free {
-    position: absolute;
-    top: 13px;
-    left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sales-page__header-discount p {
@@ -164,6 +153,10 @@ p {
     position: absolute;
     top: 35px;
     left: 75px;
+}
+
+.sales-page__card__free-shipping {
+    display: none;
 }
 
 .sales-page__card-prices {
@@ -286,6 +279,10 @@ p {
     margin-right: 25px;
 }
 
+.sales-page__card-special-offer {
+    display: none;
+}
+
 .sales-page__card-offers img {
     position: absolute;
     top: 45px;
@@ -309,6 +306,7 @@ p {
     border: 0px;
     border-radius: 60px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .sales-page__card-btn span {
@@ -358,4 +356,115 @@ p {
 
 #sales-page__card-single {
     margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .sales-page__container {
+        width: 1440px;
+    }
+    .sales-page__title p, .sales-page__title span {
+        font-size: 37px;
+    }
+    .sales-page__title img {
+        width: 303px;
+    }
+    .sales-page__cards {
+        display: flex;
+        width: 1198px;
+        justify-content: space-between;
+        margin-left: 119px;
+    }
+    .sales-page__card {
+        width: 368px;
+        height: 500px;
+    }
+    #blue-star {
+        display: flex;
+    }
+    #blue-star-icon {
+        width: 33px;
+        height: 32px;
+    }
+    .sales-page__header-discount {
+        flex-direction: row;
+        width: 416px;
+        justify-content: center;
+        align-items: center;
+    }
+    .sales-page__header-discount p br {
+        display: none;
+    }
+    .sales-page__header__icon-container {
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 16px;
+    }
+    .sales-page__header__icon-img {
+        height: 37px;
+        width: 37px;
+    }
+    .sales-page__header__icon-truck {
+        width: 33px;
+        height: 27px;
+    }
+    .sales-page__card__free-shipping {
+        display: block;
+        font-size: 13px;
+        color: #11346F;
+        font-weight: 700;
+        margin: -18px 0 15px -100px;
+    }
+    .sales-page__card-special-price-span {
+        display: none;
+    }
+    .sales-page__card-special-offer {
+        display: flex;
+        align-items: center;
+        width: 151px;
+        margin-right: 8px;
+    }
+    .sales-page__card-special-offer img {
+        position: static;
+        margin-right: 8px;
+    }
+    .sales-page__card-special-offer span {
+        font-size: 12px;
+        font-weight: 700;
+        margin-right: 0px;
+    }
+    .sales-page__card-massager-popular {
+        margin-bottom: 24px;
+    }
+    #sales-page__card-badge__best-value {
+        margin-top: 0px;
+    }
+    .sales-page__card-massager-single {
+        margin: -20px 0 70px 0;
+    }
+    #sales-page__card-single__special-offer {
+        margin: 35px 0 40px 0;
+    }
+    .sales-page__card {
+        height: 530px;
+    }
+    #sales-page__card-single__installments {
+        margin-bottom: 36px;
+    }
+    .sales-page__card-btn {
+        margin-bottom: 22px;
+    }
+    #sales-page__card-single__free-shipping {
+        margin: -5px 0 0 -20px;
+    }
+    .sales-page__card-offer p, .sales-page__card-offer span {
+        font-size: 30px;
+    }
+    .sales-page__card-prices p, .sales-page__card-prices span {
+        font-size: 32px;
+    }
+    .sales-page__card-btn {
+        height: 48px;
+    }
 }

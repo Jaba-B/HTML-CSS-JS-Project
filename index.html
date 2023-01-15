@@ -154,17 +154,21 @@
         <div class="sales-page__header">
             <div class="sales-page__header-discount">
                 <div class="sales-page__header__icon-container">
-                    <img src="/assets/icons/sales/truck.png" alt="truck" width="21.6px" height="18px" class="sales-page__header__icon-truck"/>
-                    <img src="/assets/icons/sales/blueBG.png" alt="blue background" class="sales-page__header__icon-blue" />
-                    <img src="/assets/icons/sales/spanFree.png" alt="span free" class="sales-page__header__icon-free" />
+                    <img src="/assets/icons/sales/deliveryTruck.png" alt="truck" width="21.6px" height="18px" class="sales-page__header__icon-truck sales-page__header__icon-img"/>
                 </div>
                 <p>FREE 2-DAY <br/> USA SHIPPING</p>
             </div>
             <div class="sales-page__header-discount">
                 <div class="sales-page__header__icon-container">
-                    <img src="/assets/icons/sales/badge.png" />
+                    <img src="/assets/icons/sales/badge.png" class="sales-page__header__icon-img"/>
                 </div>
                 <p>100% MONEY-BACK <br/> GUARANTEE</p>
+            </div>
+            <div id="blue-star" class="sales-page__header-discount">
+                <div class="sales-page__header__icon-container">
+                    <img id="blue-star-icon" src="/assets/icons/sales/blueStar.png" class="sales-page__header__icon-img" />
+                </div>
+                <p>RAVE REVIEWS FROM OUR CUSTOMERS</p>
             </div>
         </div>
         <div class="sales-page__title">
@@ -187,6 +191,7 @@
                     <span>$209.85</span>
                     <img src="/assets/icons/sales/grayLine.png" alt="gray line" width="100px" height="2px"/>
                 </div>
+                <span class="sales-page__card__free-shipping">+ Free Shipping</span>
                 <div class="sales-page__card-installments">
                     <p>or 4 interest-free installments of <span>$34.99</span> by</p>
                     <div class="sales-page__card-installments__afterpay">
@@ -199,7 +204,11 @@
                         <span>SAVE $70 - 33% OFF!</span>
                     </div>
                     <div class="sales-page__card-special-price">
-                        <span>Special online price!</span>
+                        <span class="sales-page__card-special-price-span">Special online price!</span>
+                        <div class="sales-page__card-special-offer">
+                            <img src="/assets/icons/sales/whiteBgBadge.png" alt="badge" width="23px" height="23px">
+                            <span>30-Day Money Back</span>
+                        </div>
                     </div>
                     <img src="/assets/icons/sales/sandClock.png" width="18px" height="19px" alt="sand clock"/>
                     <p>6 orders at this price remaining</p>
@@ -231,6 +240,7 @@
                     <span>$349.95</span>
                     <img src="/assets/icons/sales/grayLine.png" alt="gray line" width="100px" height="2px"/>
                 </div>
+                <span class="sales-page__card__free-shipping">+ Free Shipping</span>
                 <div class="sales-page__card-installments">
                     <p>or 4 interest-free installments of <span>$52.50</span> by</p>
                     <div class="sales-page__card-installments__afterpay">
@@ -243,7 +253,11 @@
                         <span>SAVE $140 - 40% OFF!</span>
                     </div>
                     <div class="sales-page__card-special-price">
-                        <span>Special online price!</span>
+                        <span class="sales-page__card-special-price-span">Special online price!</span>
+                        <div class="sales-page__card-special-offer">
+                            <img src="/assets/icons/sales/whiteBgBadge.png" alt="badge"  width="23px" height="23px">
+                            <span>30-Day Money Back</span>
+                        </div>
                     </div>
                     <img src="/assets/icons/sales/sandClock.png" width="18px" height="19px" alt="sand clock"/>
                     <p>6 orders at this price remaining</p>
@@ -269,14 +283,19 @@
                 <div id="sales-page__card-prices__single" class="sales-page__card-prices">
                     <p>$69.95</p>
                 </div>
-                <div class="sales-page__card-installments">
+                <span id="sales-page__card-single__free-shipping" class="sales-page__card__free-shipping">+ Free Shipping</span>
+                <div id="sales-page__card-single__special-offer" class="sales-page__card-special-offer">
+                    <img src="/assets/icons/sales/whiteBgBadge.png" alt="badge"  width="23px" height="23px">
+                    <span>30-Day Money Back</span>
+                </div>
+                <div id="sales-page__card-single__installments" class="sales-page__card-installments">
                     <p>or 4 interest-free installments of <span>$52.50</span> by</p>
                     <div class="sales-page__card-installments__afterpay">
                         <span>afterpay</span>
                         <img src="/assets/icons/sales/afterpay.png" alt="curly line" width="10.88px" height="9.43px"/>
                     </div>
                 </div>
-                <button class="sales-page__card-btn">
+                <button id="sales-page__card-btn" class="sales-page__card-btn">
                     <span>GET YOUR MAGIC</span>
                 </button>
                 <div class="sales-page__card-payments">
