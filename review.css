@@ -145,6 +145,10 @@ p {
     line-height: 26px;
 }
 
+#review-page__review-4 {
+    display: none;
+}
+
 .review-page__review-dots {
     width: 415px;
     display: flex;
@@ -168,4 +172,55 @@ p {
 
 #review-dot1 {
     background-color: #197AFF;
+}
+
+@media only screen and (min-width: 1440px) {
+    .review-page__container {
+        width: 1440px;
+    }
+    .review-page__title {
+        margin: 50px 0 55px 0;
+    }
+    .review-page__title p {
+        font-size: 37px;
+    }
+    .review-page__title p br {
+        display: none;
+    }
+    .review-page__title img {
+        width: 226px;
+        height: 6px;
+        left: 860px;
+        top: 75px;
+    }
+    .review-page__rate {
+        width: 1230px;
+    }
+    .review-page__rate-review {
+        display: flex;
+        align-items: center;
+    }
+    .review-page__rate-review span {
+        margin-left: 7px;
+        margin-bottom: 5px;
+    }
+    #review-page__review-4 {
+        display: block;
+    }
+    .review-page__review-dots {
+        display: none;
+    }
+    .review-page__reviews {
+        margin-bottom: 62px;
+    }
+    .review-page__review{
+        width: 285px;
+        height: 472px;
+    }
+    .review-page__review-img {
+        height: 169px;
+    }
+    .review-page__review-description {
+        margin-bottom: 10px;
+    }
 }
