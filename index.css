@@ -39,6 +39,14 @@ body {
     width: 100%;
 }
 
+.home-page__header-container div span {
+    display: none;
+}
+
+.home-page__nav-btn {
+    display: none;
+}
+
 .home-page__main-container {
     position: relative;
     margin: 0px;
@@ -89,6 +97,10 @@ body {
     left: 226px;
 }
 
+.home-page__desktop-massagers {
+    display: none;
+}
+
 .home-page__shadow-first {
     position: absolute;
     left: 210px;
@@ -112,6 +124,13 @@ body {
     font-size: 14px;
     font-weight: 700;
     margin: 0;
+}
+.home-page__p-container p span {
+    display: none;
+}
+
+.home-page__dekstop-p {
+    display: none;
 }
 
 .home-page__categories-container {
@@ -298,6 +317,10 @@ body {
     vertical-align: middle;
 }
 
+.home-page__categories-description {
+    display: none;
+}
+
 .home-page__blue-btn {
     margin: 20px 0 0 18px;
     width: 377px;
@@ -400,3 +423,190 @@ body {
 .home-page__ending {
     height: 28px;
 }
+
+@media only screen and (min-width: 1440px) {
+    .home-page__container {
+        width: 1440px;
+        background-color: #FBFBFB;
+    }
+    .home-page__title-container p span {
+        margin-left: 12px;
+    }
+    .home-page__header-container {
+        justify-content: space-evenly;
+        margin-bottom: 63px;
+    }
+    .home-page__header-container div {
+        display: flex;
+        justify-content: space-between;
+        width: 515px;
+    }
+    .home-page__header-container div span {
+        cursor: pointer;
+        display: block;
+        font-size: 16px;
+        color: #11346F;
+        font-weight: 600;
+    }
+    .home-page__header-container div span:active {
+        font-weight: 700;
+    }
+    .home-page__nav-btn {
+        cursor: pointer;
+        display: block;
+        width: 165px;
+        height: 42px;
+        border-radius: 60px;
+        border: 0px;
+        background-color: #197AFF;
+    }
+    
+    .home-page__nav-btn span {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .home-page__main-container {
+        height: 57px;
+        margin-bottom: 30px;
+        background-color: #FBFBFB;
+    }
+    .home-page__titlehead {
+        margin-left: 100px;
+    }
+    .home-page__titlehead p {
+        width: 911px;
+        height: 57px;
+        font-size: 42px;
+    }
+    .home-page__titlehead br {
+        display: none;
+    }
+    .home-page__titlehead-underline {
+        width: 171px;
+        height: 6px;
+        top: 70px;
+        left: 835px;
+    }
+    .home-page__titlehead-curly {
+        transform: rotatex(180deg);
+        top: 15px;
+        left: 1010px;
+    }
+    .home-page__titlehead-blue-arrow {
+        transform: rotate(120deg);
+        left: 1086px;
+        top: 50px;
+    }
+    .home-page__massagers   {
+        display: none;
+    }
+    .home-page__shadow-first {
+        display: none;
+    }
+    .home-page__shadow-second {
+        display: none;
+    }
+    .home-page__desktop-massagers {
+        display: block;
+        position: absolute;
+        width: 391px;
+        height: 241px;
+        right: 87px;
+        top: 120px;
+    }
+    .home-page__p-container {
+        display: none;
+    }
+    .home-page__dekstop-p {
+        display: block;
+        margin-left: 100px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    .home-page__categories-container {
+        width: 800px;
+        height: 152px;
+        margin-left: 100px;
+    }
+    .home-page__categories {
+        margin: 30px 0 0 0;
+        padding: 15px 0 0 0;
+        width: 800px;
+        background: rgba(174, 204, 255, 0.1);
+        border: 1px solid rgba(174, 204, 255, 0.5);
+        border-radius: 10px;
+    }
+    .home-page__categories-head {
+        width: 180px;
+        padding-left: 15px;
+    }
+    .home-page__categories-head, .home-page__categories-body, 
+    .home-page__categories-kid, .home-page__categories-pet {
+        justify-content: center;
+        align-items: center;
+    }
+    .home-page__categories-head__span, .home-page__categories-body__span, 
+    .home-page__categories-kid__span, .home-page__categories-pet__span {
+        margin-top: 15px;
+        color: #11346F;
+        font-size: 14px;
+        font-weight: 800;
+    }
+    .home-page__categories-head__span span, .home-page__categories-body__span span, 
+    .home-page__categories-kid__span span, .home-page__categories-pet__span span{
+        display: flex;
+        justify-content: center;
+        width: 180px;
+        margin: 0;
+    }
+    .home-page__categories-head__span span br, .home-page__categories-body__span span br, 
+    .home-page__categories-kid__span span br, .home-page__categories-pet__span span br {
+        display: none;
+    }
+    .home-page__categories-description {
+        display: block;
+    }
+    .home-page__categories-description ul {
+        width: 150px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+    .home-page__categories-description ul li {
+        color: #262626;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    .vertical-line {
+        height: 117px;
+        width: 1px;
+        background-color: #CEE2FF;
+    }
+    .home-page__categories-body__icon {
+        left: 70px;
+    }
+    .home-page__categories-body-description {
+        margin-left: 15px;
+    }
+    .home-page__blue-btn {
+        margin: 52px 0 0 100px;
+    }
+    .home-page__gray-btn {
+        position: absolute;
+        top: 115px;
+        left: 80px;
+    }
+    .home-page__customer-container {
+        margin-left: 985px;
+        margin-top: -20px;
+    }
+    .home-page__btn-container {
+        position: relative;
+    }
+}   
